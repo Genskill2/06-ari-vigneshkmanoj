@@ -1,6 +1,7 @@
-#include<stdio.h>
-#include<string.h>
-#include<ctype.h>
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include <cs50.h>
 string ari(string s) 
 {
 float ch=0;
