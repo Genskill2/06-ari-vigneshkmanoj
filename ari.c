@@ -4,7 +4,7 @@
 string ari(string s) 
 {
 float ch=0;
-float wd=1;
+float wd=0;
 float ss=0;
 for(int i=0;i<strlen(s);i++)
 {
@@ -71,7 +71,11 @@ else if(score>11 && score<=12)
 {
 return "Twelfth grade";
 }
-else if(score>12 && score<=14)
+else if(score>12 && score<=13)
+{
+return "College student";
+}
+else if(score>13 && score<=14)
 {
 return "Professor";
 }
